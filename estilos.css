@@ -1,6 +1,72 @@
-
+/* Reset básico */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Encabezado */
+#nombre_header {
+  text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+/* Sección "Acerca de mí" */
+#acerca_de_mi,
+#parrafo_acerca_de_mi {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#acerca_de_mi {
+  color: green;
+}
+
+#parrafo_acerca_de_mi {
+  color: black;
+}
+
+/* Lista de motos */
+#lista_motos {
+  list-style-type: none;
+  padding-left: 20px;
+  background-color: hwb(0 98% 2%);
+  border: 1px solid #0a3203;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#lista_motos li {
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+/* Estilo general para todas las imágenes */
+#lista_motos img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: 10px auto 0 auto;
+}
+
+/* Bordes personalizados por moto */
+#kawasaki img {
+  border: 4px solid green;
+}
+
+#r1 img {
+  border: 4px solid blue;
+}
+
+#cbr1000rr img {
+  border: 4px solid red;
+}
+
